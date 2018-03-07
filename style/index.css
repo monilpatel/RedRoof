@@ -137,6 +137,9 @@ img {
 .section {
     padding: 12%;
 }
+.section-smaller {
+    padding: 12% 12% 5% 12%;
+}
 
 .text-emphasis{
     font-family: 'Roboto Slab', serif;
@@ -148,9 +151,14 @@ img {
     background: #F8F9FA;
 }
 
+.bg-dark-gray{
+    background: #383838;
+}
+
 .bg-rr-red{
     background: #C41E3A;
 }
+
 
 .text-item-label {
     font-weight: bold;
@@ -175,3 +183,23 @@ img {
 .container{
     max-width: 960px !important;
 }
+
+[class*="col-"] {
+    margin-bottom: 1.5em;
+}
+
+/* 
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
