@@ -1,0 +1,21 @@
+.info-stage {
+    /* IE10+ */
+    background-image: -ms-linear-gradient(right, #C41E3A 0%, #A61931 100%);
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(right, #C41E3A 0%, #A61931 100%);
+    /* Opera */
+    background-image: -o-linear-gradient(right, #C41E3A 0%, #A61931 100%);
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #C41E3A), color-stop(100, #A61931));
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(right, #C41E3A 0%, #A61931 100%);
+    /* W3C Markup */
+    background-image: linear-gradient(to left, #C41E3A 0%, #A61931 100%);
+    /* height: 30%; */
+    padding: 5%;
+    margin-top: 86px;
+}
+
+.container-small{
+    max-width:640px !important
+}
