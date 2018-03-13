@@ -184,8 +184,8 @@ img {
 .section {
     padding: 12%;
 }
-.section-smaller {
-    padding: 12% 12% 5% 12%;
+.section-small {
+    padding: 10%;
 }
 
 #local .card:hover{
