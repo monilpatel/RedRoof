@@ -47,10 +47,10 @@ a{
 .container-small{
     max-width:640px !important
 }
-
+/* 
 [class*="col-"] {
     margin-bottom: 1.5em;
-}
+} */
 
 
 /* backgrounds  colors --------------------------------------------------------*/
