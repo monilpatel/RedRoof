@@ -58,6 +58,10 @@ a{
     background: #F8F9FA;
 }
 
+.bg-medium-gray{
+    background: #f2f2f2
+}
+
 .bg-dark-gray{
     background: #383838;
 }
