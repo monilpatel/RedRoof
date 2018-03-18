@@ -209,7 +209,11 @@ img {
  }
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
+@media (min-width: 992px) { 
+    .section-small {
+        padding: 5% 10%;
+    }
+ }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  }
