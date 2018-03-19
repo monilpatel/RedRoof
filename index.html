@@ -18,8 +18,7 @@
   <nav id="m-nav" class="navbar navbar-expand-md navbar-light fixed-top bg-white">
     <div class="container">
       <a href="#" class="navbar-brand navbar-left text-center">
-        <img src="./img/logo.png" alt="Red Roof Leesburg Logo" style="height:50px;">
-        Leesburg
+        <img src="./img/logo.png" alt="Red Roof Leesburg Logo" style="height:50px;"> Leesburg
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
         aria-expanded="false" aria-label="Toggle navigation">
@@ -43,13 +42,13 @@
             <a class="nav-link" href="#">Group Rates</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="./index.html#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Deals</a>
+            <a class="nav-link" href="https://www.redroof.com/deals#">Deals</a>
           </li>
           <li class="nav-item bg-rr-red text-center">
-            <a class="nav-link text-white" href="#">Reserve Now</a>
+            <a class="nav-link text-white" href="https://www.redroof.com/property/va/leesburg/RRI637#">Reserve Now</a>
           </li>
         </ul>
       </div>
@@ -58,22 +57,22 @@
   <div id="stage" class="d-flex justify-content-center align-items-center">
     <div id="stage-content">
       <img src="./img/logo.png" style="width:50%;">
-        <p class=" mt-4">
-          <a class="text-light" href="https://www.google.com/maps/place/721+E+Market+St,+Leesburg,+VA+20176/@39.1055336,-77.549889,17z/data=!3m1!4b1!4m5!3m4!1s0x89b63d9d77ce84e5:0x34d2bbe63b179c37!8m2!3d39.1055336!4d-77.5477003?q=721+East+Market+Street,+Leesburg+VA&oe=utf-8&client=firefox-b-1&um=1&ie=UTF-8&sa=X&ved=0ahUKEwiV5u_mwPTZAhVxUd8KHSoJD8cQ_AUICigB">
-            <i class="fas fa-map-marker-alt mr-3"></i>
-            721 East Market Street, Leesburg VA</a>
-        </p>
-        <p class="text-light">
-          <a class="text-light"  href="tel:(703)777-6622">
-            <i class="fas fa-phone mr-3"></i>
-            703-777-6622</a>
-        </p>
+      <p class=" mt-4">
+        <a class="text-light" href="https://www.google.com/maps/place/721+E+Market+St,+Leesburg,+VA+20176/@39.1055336,-77.549889,17z/data=!3m1!4b1!4m5!3m4!1s0x89b63d9d77ce84e5:0x34d2bbe63b179c37!8m2!3d39.1055336!4d-77.5477003?q=721+East+Market+Street,+Leesburg+VA&oe=utf-8&client=firefox-b-1&um=1&ie=UTF-8&sa=X&ved=0ahUKEwiV5u_mwPTZAhVxUd8KHSoJD8cQ_AUICigB">
+          <i class="fas fa-map-marker-alt mr-3"></i>
+          721 East Market Street, Leesburg VA</a>
+      </p>
+      <p class="text-light">
+        <a class="text-light" href="tel:(703)777-6622">
+          <i class="fas fa-phone mr-3"></i>
+          703-777-6622</a>
+      </p>
       <p class="mt-4">Red Roof Inns Leesburg's combination of spacious rooms, high quality service, and local attractions is everything you
         need
       </p>
-      <button type="button" class="btn btn-rr-red btn-block mt-3">Reserve Now</button>
+      <a type="button" class="btn btn-rr-red btn-block mt-3" href="https://www.redroof.com/property/va/leesburg/RRI637#">Reserve Now</a>
       <p class="mt-3">
-        <a class="text-light">view room options</a>
+        <a class="text-light" href="./routes/rooms.html">view room options</a>
       </p>
     </div>
 
@@ -101,17 +100,32 @@
       <h3 class="text-emphasis mb-3">Our Rooms</h3>
       <p>Red Roof Inn Leesburg offers 80 newly-renovated King and Queen bedrooms.</p>
       <p>All rooms are equipped with a microwave and mini-refrigerators
-        <a href="#">See More Amenities</a>
+        <a href="./routes/amenities.html">See More Amenities</a>
       </p>
       <div class="row mt-5">
         <div class="col-md-6 mb-3">
-          <img src="img/temp-king.jpg">
+          <a href="./routes/rooms.html#king-section">
+            <div class="card">
+              <img class="card-img-top" src="img/temp-king.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">King Bedroom</h5>
+              </div>
+            </div>
+          </a>
+
         </div>
         <div class="col-md-6">
-          <img src="img/temp-queen.jpg">
+          <a href="./routes/rooms.html#queen-section">
+            <div class="card">
+              <img class="card-img-top" src="img/temp-queen.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Queen Bedroom</h5>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
-      <button type="button" class="btn btn-rr-red mt-4">See Room Details</button>
+      <a type="button" href="./routes/rooms.html" class="btn btn-rr-red mt-4">See Room Details</a>
     </div>
   </div>
 
@@ -132,7 +146,7 @@
           <p class="text-center mt-3">ADA Accessible Parking and Rooms</p>
         </div>
       </div>
-      <button type="button" class="btn btn-rr-red mt-4">See All Amenities</button>
+      <a type="button" class="btn btn-rr-red mt-4" href="./routes/amenities.html">See All Amenities</a>
     </div>
   </div>
   <div id="local" class="section bg-light-gray">
@@ -141,50 +155,62 @@
 
       <div class="row">
         <div class="col-md-6 mb-3">
-          <div class="card">
-            <img class="card-img-top" src="./img/restaurant.jpg" alt="Restaurant Image">
-            <div class="card-body">
-              <p class="card-text">Restaurants</p>
+          <a href="./routes/nearby.html#nearby-restaurant">
+            <div class="card">
+              <img class="card-img-top" src="./img/restaurant.jpg" alt="Restaurant Image">
+              <div class="card-body">
+                <p class="card-text">Restaurants</p>
+              </div>
             </div>
-          </div>
+          </a>
+
         </div>
         <div class="col-md-6 mb-3">
-          <div class="card">
-            <img class="card-img-top" src="./img/shopping.jpg" alt="Shopping Image">
-            <div class="card-body">
-              <p class="card-text">Shopping</p>
+          <a href="./routes/nearby.html#nearby-shopping">
+            <div class="card">
+              <img class="card-img-top" src="./img/shopping.jpg" alt="Shopping Image">
+              <div class="card-body">
+                <p class="card-text">Shopping</p>
+              </div>
             </div>
-          </div>
+          </a>
+
         </div>
       </div>
       <div class="row">
         <div class="col-md-4 mb-3 d-none d-md-block">
-          <div class="card">
-            <img class="card-img-top" src="./img/airport.jpg" alt="Airport Image">
-            <div class="card-body">
-              <p class="card-text">Airports</p>
+          <a href="./routes/nearby.html#nearby-airport">
+            <div class="card">
+              <img class="card-img-top" src="./img/airport.jpg" alt="Airport Image">
+              <div class="card-body">
+                <p class="card-text">Airports</p>
+              </div>
             </div>
-          </div>
+          </a>
+
         </div>
         <div class="col-md-4 mb-3 d-none d-md-block">
-          <div class="card">
-            <img class="card-img-top" src="./img/winery.jpg" alt="Winery Image">
-            <div class="card-body">
-              <p class="card-text">Winery</p>
+          <a href="./routes/nearby.html#nearby-wine">
+            <div class="card">
+              <img class="card-img-top" src="./img/winery.jpg" alt="Winery Image">
+              <div class="card-body">
+                <p class="card-text">Winery</p>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         <div class="col-md-4 mb-3 d-none d-md-block">
-          <div class="card">
-            <img class="card-img-top" src="./img/parks.jpg" alt="Parks Image">
-            <div class="card-body">
-              <p class="card-text">Parks and Golf Courses</p>
+          <a href="./routes/nearby.html#nearby-parks">
+            <div class="card">
+              <img class="card-img-top" src="./img/parks.jpg" alt="Parks Image">
+              <div class="card-body">
+                <p class="card-text">Parks and Golf Courses</p>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
-      <button type="button" class="btn btn-rr-red mt-4">See What's Nearby</button>
-
+      <a type="button" class="btn btn-rr-red mt-4" href="./routes/nearby.html">See What's Nearby</a>
     </div>
   </div>
 
