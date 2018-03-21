@@ -67,3 +67,8 @@
     min-height: 200px;
 }
 
+.square-input{
+    border: none;
+    border-radius: 0px;
+}
+
